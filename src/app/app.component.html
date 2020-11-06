@@ -1,1 +1,10 @@
 <app-orbit-list [satellites]="sourceList"></app-orbit-list>
+
+<div class="search-form">
+    <!--<input (keyup.enter)="search(searchTerm.value)"" type="text"/>-->
+    <input (keyup.enter)= "search(searchTerm.value)" type="text"/>
+    <!--<input #newMovie (keyup)='true' type='text' placeholder="Enter Movie Title Here"/>-->
+    <button (click) = "search(searchTerm.value)">Search</button>
+    
+
+</div> 
